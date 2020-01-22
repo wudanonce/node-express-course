@@ -3,7 +3,7 @@ const app = express();
 
 const mockUserData=[
   {name:'Mark'},
-  {name:'Jill'},
+  {name:'Jill'}
 ]
 
 app.get('/users',function(req,res){
